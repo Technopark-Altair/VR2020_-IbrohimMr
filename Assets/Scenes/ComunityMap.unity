@@ -4909,6 +4909,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525062197}
   m_Mesh: {fileID: 4300002, guid: f0ba6574de89eb04284da26a16acae1c, type: 3}
+--- !u!1 &1572600695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1203520686931301414, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
+  m_PrefabInstance: {fileID: 1976737728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1572600696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572600695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useRecommendedMSAALevel: 1
+  _monoscopic: 0
+  enableAdaptiveResolution: 0
+  enableColorGamut: 0
+  colorGamut: 0
+  minRenderScale: 0.7
+  maxRenderScale: 1
+  _headPoseRelativeOffsetRotation: {x: 0, y: 0, z: 0}
+  _headPoseRelativeOffsetTranslation: {x: 0, y: 0, z: 0}
+  profilerTcpPort: 32419
+  expandMixedRealityCapturePropertySheet: 0
+  enableMixedReality: 0
+  compositionMethod: 0
+  extraHiddenLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  externalCompositionBackdropColorRift: {r: 0, g: 1, b: 0, a: 1}
+  externalCompositionBackdropColorQuest: {r: 0, g: 0, b: 0, a: 0}
+  capturingCameraDevice: 0
+  flipCameraFrameHorizontally: 0
+  flipCameraFrameVertically: 0
+  handPoseStateLatency: 0
+  sandwichCompositionRenderLatency: 0
+  sandwichCompositionBufferedFrames: 8
+  chromaKeyColor: {r: 0, g: 1, b: 0, a: 1}
+  chromaKeySimilarity: 0.6
+  chromaKeySmoothRange: 0.03
+  chromaKeySpillRange: 0.06
+  useDynamicLighting: 0
+  depthQuality: 1
+  dynamicLightingSmoothFactor: 8
+  dynamicLightingDepthVariationClampingValue: 0.001
+  virtualGreenScreenType: 0
+  virtualGreenScreenTopY: 10
+  virtualGreenScreenBottomY: -10
+  virtualGreenScreenApplyDepthCulling: 0
+  virtualGreenScreenDepthTolerance: 0.2
+  mrcActivationMode: 0
+  _trackingOriginType: 0
+  usePositionTracking: 1
+  useRotationTracking: 1
+  useIPDInPositionTracking: 1
+  resetTrackerOnLoad: 0
+  AllowRecenter: 1
+  LateControllerUpdate: 1
 --- !u!4 &1576582870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 982497707450664100, guid: 546bc0ef75f4acc4ca3b3509c9951c1e, type: 3}
@@ -5789,43 +5851,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.81
+      value: 72.04
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.87
+      value: -3.76
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 120.94
+      value: 120.9
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.32234606
+      value: 0.24688134
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.012102218
+      value: -0.042878162
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9465356
+      value: 0.96809506
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.004121453
+      value: -0.0017674546
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -1.017
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 151.43
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301411, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -4.813
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301412, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: field of view
@@ -5838,6 +5900,10 @@ PrefabInstance:
     - target: {fileID: 1203520686931301412, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_SensorSize.x
       value: 91.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203520686931301412, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
+      propertyPath: near clip plane
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1203520686931301414, guid: 6c300929684e1b54c898bcaddf0f62fe, type: 3}
       propertyPath: m_Name
